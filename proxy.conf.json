@@ -1,0 +1,10 @@
+{
+  "/petra/*": {
+    "target": "https://query2.finance.yahoo.com/v8/finance/chart/PETR4.SA",
+    "secure": false,
+    "pathRewrite": {
+      "^/petra": ""
+    },
+    "changeOrigin": true
+  }
+}
